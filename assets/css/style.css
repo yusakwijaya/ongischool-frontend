@@ -1,0 +1,196 @@
+/*Base*/
+
+body {
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+a {
+    transition: all .3s ease-in;
+    color: #0fa28f;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #088a79;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/*Menu Overlay*/
+
+.menu-overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(15, 162, 143, 0.85);
+    position: fixed;
+    z-index: 100;
+	display: none;
+}
+
+.menu-overlay ul {
+    list-style: none;
+}
+
+.menu-overlay ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 300;
+}
+
+button.close-menu {
+    border: none;
+    background: none;
+    font-size: 60px;
+    font-weight: bolder;
+	color: #fff;
+}
+
+
+/*Header*/
+
+header {
+    padding: 20px 0;
+}
+
+.brand {
+    float: left;
+}
+
+.icon-burger {
+    float: right;
+}
+
+.icon-burger button {
+    border: none;
+    background: none;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+/*Blog post*/
+
+.title-blog {
+    color: #088a79;
+}
+
+.date,
+.tag {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.date {
+    float: left;
+    font-style: italic;
+}
+
+.tag {
+    float: right;
+}
+
+.date p,
+.tag p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.img-container {
+    margin-top: 30px;
+}
+
+.blockquote {
+    padding: 20px 25px;
+    background-color: #f5f5f5;
+}
+
+blockquote {
+    position: relative;
+    margin-bottom: 0;
+    padding-left: 70px;
+    border-left: none;
+    font-size: 24px;
+    font-style: italic;
+}
+
+blockquote i {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font-size: 40px;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+.border-paragraph {
+    padding-bottom: 30px;
+    border-bottom: 2px dashed #ccc;
+}
+
+.table {
+    margin-top: 18px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.table>thead>tr>th {
+    padding: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    border-bottom: none;
+    background-color: #0fa28f;
+}
+
+.table>tbody>tr>td {
+    padding: 20px 20px 20px 12px;
+    border-top-color: #e9e9e9;
+}
+
+.table>tbody>tr:first-child>td {
+    border-top: none;
+}
+
+.table>tbody>tr:last-child>td {
+    border-bottom: 1px solid #e9e9e9;
+}
+
+
+/*Footer*/
+
+footer {
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+footer .footer-wrapper {
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+footer p {
+    margin: 0;
+}
